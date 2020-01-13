@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/test2-extractorxml/static/css/main.60b39835.chunk.css",
-    "main.js": "/test2-extractorxml/static/js/main.eb6ffcec.chunk.js",
-    "main.js.map": "/test2-extractorxml/static/js/main.eb6ffcec.chunk.js.map",
+    "main.js": "/test2-extractorxml/static/js/main.313abb4c.chunk.js",
+    "main.js.map": "/test2-extractorxml/static/js/main.313abb4c.chunk.js.map",
     "runtime-main.js": "/test2-extractorxml/static/js/runtime-main.15343b5b.js",
     "runtime-main.js.map": "/test2-extractorxml/static/js/runtime-main.15343b5b.js.map",
     "static/css/2.66e62f61.chunk.css": "/test2-extractorxml/static/css/2.66e62f61.chunk.css",
     "static/js/2.0805f94e.chunk.js": "/test2-extractorxml/static/js/2.0805f94e.chunk.js",
     "static/js/2.0805f94e.chunk.js.map": "/test2-extractorxml/static/js/2.0805f94e.chunk.js.map",
     "index.html": "/test2-extractorxml/index.html",
-    "precache-manifest.be3c6402272fefa748d3babb7b50fa44.js": "/test2-extractorxml/precache-manifest.be3c6402272fefa748d3babb7b50fa44.js",
+    "precache-manifest.f141b0f34ca77c43a46771187df7535a.js": "/test2-extractorxml/precache-manifest.f141b0f34ca77c43a46771187df7535a.js",
     "service-worker.js": "/test2-extractorxml/service-worker.js",
     "static/css/2.66e62f61.chunk.css.map": "/test2-extractorxml/static/css/2.66e62f61.chunk.css.map",
     "static/css/main.60b39835.chunk.css.map": "/test2-extractorxml/static/css/main.60b39835.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.66e62f61.chunk.css",
     "static/js/2.0805f94e.chunk.js",
     "static/css/main.60b39835.chunk.css",
-    "static/js/main.eb6ffcec.chunk.js"
+    "static/js/main.313abb4c.chunk.js"
   ]
 }
