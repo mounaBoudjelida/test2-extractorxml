@@ -4,7 +4,7 @@ import Header from './common/layouts/Header';
 import MesNotes from './trainee-space/MesNotes';
 import MyProfile from './trainee-space/MyProfile';
 import LoginStagiaire from './trainee-space/LoginStagiaire';
-import { BrowserRouter as Router, Route, Switch  } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch  } from 'react-router-dom';
 import { Redirect } from 'react-router';
 import MotDePasseOublie from './common/views/MotDePasseOublie';
 import MainXMLFilter from './admin-space/MainXMLFilter';
@@ -83,7 +83,7 @@ export class App extends Component {
         
           {/*Espace stagiaire*/ }
           <Header/>
-          <Switch>
+          
           <Route exact path="/" render={() => (<Redirect to="/mes-notes"/>)} />
           <Route exact path="/login-stagiaire" component={LoginStagiaire} /> 
           <Route exact path="/reinitialiser-mot-de-passe" component={MotDePasseOublie} /> 
@@ -95,8 +95,7 @@ export class App extends Component {
           <Route exact path="/xml-filter" render={() => ((this.isLoggedInAndisAdmin()) ? <MainXMLFilter/> : ((<Redirect to="/login-admin"/>) ))} /> 
          
      
-          <Route path="*" component={Pages404} />
-          </Switch>
+         
           
           <Footer/>
           
